@@ -30,7 +30,7 @@ struct StaticRangeSum{
 
   void build(){
     if(flgBuild) return;
-    for(int i = 0; i < n; ++i){
+    for(int i = 0; i < data.size(); ++i){
       sum[i+1] = sum[i] + data[i];
     }
     flgBuild = true;
