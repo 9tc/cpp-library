@@ -9,7 +9,7 @@ int main(){
   VL a = input(N);
   StaticRangeSum<ll> cs(a);
 
-  REP(i,N){
+  REP(i,Q){
     int l, r;
     cin >> l >> r;
     cout << cs.get(l, r) << endl;
