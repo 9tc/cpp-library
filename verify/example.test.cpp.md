@@ -11,7 +11,7 @@ data:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/4/ALDS1_4_B
     links:
     - https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/4/ALDS1_4_B
-  bundledCode: "#line 1 \"example.test.cpp\"\n#define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/4/ALDS1_4_B\"\
+  bundledCode: "#line 1 \"verify/example.test.cpp\"\n#define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/4/ALDS1_4_B\"\
     \n#include <algorithm>\n#include <iostream>\n#include <vector>\n#define REP(i,\
     \ n) for (int i = 0; (i) < (int)(n); ++ (i))\n#define ALL(x) std::begin(x), std::end(x)\n\
     using namespace std;\n\nint main() {\n    int n; \n    cin >> n;\n    vector<int>\
@@ -29,15 +29,15 @@ data:
     \ 0;\n}\n"
   dependsOn: []
   isVerificationFile: true
-  path: example.test.cpp
+  path: verify/example.test.cpp
   requiredBy: []
-  timestamp: '2022-11-13 18:36:40+09:00'
+  timestamp: '2022-11-13 18:43:49+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: example.test.cpp
+documentation_of: verify/example.test.cpp
 layout: document
 redirect_from:
-- /verify/example.test.cpp
-- /verify/example.test.cpp.html
-title: example.test.cpp
+- /verify/verify/example.test.cpp
+- /verify/verify/example.test.cpp.html
+title: verify/example.test.cpp
 ---
