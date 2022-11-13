@@ -35,7 +35,7 @@ struct StaticRangeSum{
     flgBuild = true;
   }
 
-  T get(int l, int r) const{
+  T get(int l, int r){
     if(!flgBuild) build();
     return sum[r] - sum[l];
   }
