@@ -12,8 +12,7 @@ struct StaticRangeSum{
     flgBuild = false;
   }
 
-  StaticRangeSum(vector<T> &v): data(v){
-    sum(v.size()+1, 0);
+  StaticRangeSum(vector<T> &v): data(v), sum(v.size()+1, 0){
     flgBuild = false;
     build();
   }
