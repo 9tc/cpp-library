@@ -47,9 +47,9 @@ data:
     \ ret;\n  }\n};\ntemplate <class T>\ninline void printVec(std::vector<T> v){\n\
     \  REP(i,v.size()){\n    if(i) std::cout << \" \";\n    std::cout << v[i];\n \
     \ } std::cout << std::endl;\n}\n\nusing namespace std;\n#line 1 \"data-structure/cumulative-sum.hpp\"\
-    \ntemplate<class T>\nstruct StaticRangeSum{\n  vector<T> data;\n  vector<T> sum;\n\
-    \  bool flgBuild;\n\n  StaticRangeSum(){\n    flgBuild = false;\n  }\n\n  StaticRangeSum(int\
-    \ n): data(n, 0), sum(n+1, 0){\n    flgBuild = false;\n  }\n\n  StaticRangeSum(vector<T>\
+    \ntemplate<class T>\nstruct CumulativeSum{\n  vector<T> data;\n  vector<T> sum;\n\
+    \  bool flgBuild;\n\n  CumulativeSum(){\n    flgBuild = false;\n  }\n\n  CumulativeSum(int\
+    \ n): data(n, 0), sum(n+1, 0){\n    flgBuild = false;\n  }\n\n  CumulativeSum(vector<T>\
     \ &v): data(v), sum(v.size()+1, 0){\n    flgBuild = false;\n    build();\n  }\n\
     \n  void update(int it, T value){\n    flgBuild = false;\n    data[it] = value;\n\
     \  }\n\n  void add(int it, T value){\n    flgBuild = false;\n    data[it] += value;\n\
@@ -57,12 +57,12 @@ data:
     \ ++i){\n      sum[i+1] = sum[i] + data[i];\n    }\n    flgBuild = true;\n  }\n\
     \n  T get(int l, int r){\n    if(!flgBuild) build();\n    return sum[r] - sum[l];\n\
     \  }\n};\n#line 5 \"verify/LC-StaticRangeSum.test.cpp\"\n\nint main(){\n  int\
-    \ N, Q;\n  cin >> N >> Q;\n  VL a = input(N);\n  StaticRangeSum<ll> cs(a);\n\n\
+    \ N, Q;\n  cin >> N >> Q;\n  VL a = input(N);\n  CumulativeSum<ll> cs(a);\n\n\
     \  REP(i,Q){\n    int l, r;\n    cin >> l >> r;\n    cout << cs.get(l, r) << endl;\n\
     \  }\n}\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/static_range_sum\"\n\n\
     #include \"../template/template.hpp\"\n#include \"../data-structure/cumulative-sum.hpp\"\
-    \n\nint main(){\n  int N, Q;\n  cin >> N >> Q;\n  VL a = input(N);\n  StaticRangeSum<ll>\
+    \n\nint main(){\n  int N, Q;\n  cin >> N >> Q;\n  VL a = input(N);\n  CumulativeSum<ll>\
     \ cs(a);\n\n  REP(i,Q){\n    int l, r;\n    cin >> l >> r;\n    cout << cs.get(l,\
     \ r) << endl;\n  }\n}\n"
   dependsOn:
@@ -71,7 +71,7 @@ data:
   isVerificationFile: true
   path: verify/LC-StaticRangeSum.test.cpp
   requiredBy: []
-  timestamp: '2022-11-13 19:59:41+09:00'
+  timestamp: '2022-11-14 17:10:48+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/LC-StaticRangeSum.test.cpp
