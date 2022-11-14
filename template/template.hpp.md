@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRangeSum.test.cpp
     title: verify/LC-StaticRangeSum.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: verify/LC-Unionfind.test.cpp
+    title: verify/LC-Unionfind.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -75,6 +78,7 @@ data:
   timestamp: '2022-11-13 19:46:41+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - verify/LC-Unionfind.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
 documentation_of: template/template.hpp
 layout: document
