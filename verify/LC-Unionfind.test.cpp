@@ -6,7 +6,7 @@
 int main(){
   int N, Q;
   cin >> N >> Q;
-  UnionFind uf(n);
+  UnionFind uf(N);
   int t, u, v;
   REP(i,Q){
     cin >> t >> u >> v;
