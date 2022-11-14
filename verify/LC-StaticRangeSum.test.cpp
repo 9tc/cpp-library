@@ -7,7 +7,7 @@ int main(){
   int N, Q;
   cin >> N >> Q;
   VL a = input(N);
-  StaticRangeSum<ll> cs(a);
+  CumulativeSum<ll> cs(a);
 
   REP(i,Q){
     int l, r;

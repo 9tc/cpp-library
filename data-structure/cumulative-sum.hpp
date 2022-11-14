@@ -1,18 +1,18 @@
 template<class T>
-struct StaticRangeSum{
+struct CumulativeSum{
   vector<T> data;
   vector<T> sum;
   bool flgBuild;
 
-  StaticRangeSum(){
+  CumulativeSum(){
     flgBuild = false;
   }
 
-  StaticRangeSum(int n): data(n, 0), sum(n+1, 0){
+  CumulativeSum(int n): data(n, 0), sum(n+1, 0){
     flgBuild = false;
   }
 
-  StaticRangeSum(vector<T> &v): data(v), sum(v.size()+1, 0){
+  CumulativeSum(vector<T> &v): data(v), sum(v.size()+1, 0){
     flgBuild = false;
     build();
   }
