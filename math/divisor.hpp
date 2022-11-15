@@ -8,6 +8,5 @@ set<T> getDivisors(T n){
       res.insert(n / i);
     }
   }
-  res.erase(n);
   return res;
 }
