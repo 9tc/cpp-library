@@ -9,6 +9,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: data-structure/unionfind.hpp
       title: data-structure/unionfind.hpp
+  - name: math
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: math/divisor.hpp
+      title: math/divisor.hpp
   - name: template
     pages:
     - icon: ':heavy_check_mark:'
@@ -17,6 +22,9 @@ data:
   verificationCategories:
   - name: verify
     pages:
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-ITP1_3_D.test.cpp
+      title: verify/AOJ-ITP1_3_D.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-StaticRangeSum.test.cpp
       title: verify/LC-StaticRangeSum.test.cpp

@@ -4,6 +4,9 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-ITP1_3_D.test.cpp
+    title: verify/AOJ-ITP1_3_D.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRangeSum.test.cpp
     title: verify/LC-StaticRangeSum.test.cpp
   - icon: ':heavy_check_mark:'
@@ -80,6 +83,7 @@ data:
   verifiedWith:
   - verify/LC-Unionfind.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
+  - verify/AOJ-ITP1_3_D.test.cpp
 documentation_of: template/template.hpp
 layout: document
 redirect_from:
