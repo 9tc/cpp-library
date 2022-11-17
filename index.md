@@ -14,6 +14,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: math/divisor.hpp
       title: math/divisor.hpp
+    - icon: ':heavy_check_mark:'
+      path: math/gcd.hpp
+      title: math/gcd.hpp
+    - icon: ':heavy_check_mark:'
+      path: math/lcm.hpp
+      title: math/lcm.hpp
   - name: sort
     pages:
     - icon: ':heavy_check_mark:'
@@ -31,8 +37,14 @@ data:
       path: verify/AOJ-ALDS1_1_A.test.cpp
       title: verify/AOJ-ALDS1_1_A.test.cpp
     - icon: ':heavy_check_mark:'
+      path: verify/AOJ-ALDS1_1_B.test.cpp
+      title: verify/AOJ-ALDS1_1_B.test.cpp
+    - icon: ':heavy_check_mark:'
       path: verify/AOJ-ITP1_3_D.test.cpp
       title: verify/AOJ-ITP1_3_D.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-NTL_1_C.test.cpp
+      title: verify/AOJ-NTL_1_C.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-StaticRangeSum.test.cpp
       title: verify/LC-StaticRangeSum.test.cpp

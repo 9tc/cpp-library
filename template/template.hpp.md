@@ -7,8 +7,14 @@ data:
     path: verify/AOJ-ALDS1_1_A.test.cpp
     title: verify/AOJ-ALDS1_1_A.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-ALDS1_1_B.test.cpp
+    title: verify/AOJ-ALDS1_1_B.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/AOJ-ITP1_3_D.test.cpp
     title: verify/AOJ-ITP1_3_D.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: verify/AOJ-NTL_1_C.test.cpp
+    title: verify/AOJ-NTL_1_C.test.cpp
   - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRangeSum.test.cpp
     title: verify/LC-StaticRangeSum.test.cpp
@@ -40,11 +46,9 @@ data:
     #define PAD setfill('0')<<right<<setw(8)\n\ntemplate <class T>\ninline bool chmin(T\
     \ &a, T b) {\n  if(a > b){ a = b; return true;}\n  return false;\n}\ntemplate\
     \ <class T>\ninline bool chmax(T &a, T b) {\n  if(a < b){a = b; return true;}\n\
-    \  return false;\n}\ntemplate <class T>\nT GCD(T a, T b) {\n  if (b == 0) return\
-    \ a;\n  return GCD(b, a % b);\n}\ntemplate <class T>\ninline T LCM(T a, T b) {\n\
-    \  return (a * b) / GCD(a, b);\n}\nstruct input{\n  int n;\n  input() {}\n  input(int\
-    \ n_) : n(n_){};\n  template <class T>\n  operator T(){\n    T ret;\n    std::cin\
-    \ >> ret;\n    return ret;\n  }\n  template <class T>\n  operator std::vector<T>()\
+    \  return false;\n}\nstruct input{\n  int n;\n  input() {}\n  input(int n_) :\
+    \ n(n_){};\n  template <class T>\n  operator T(){\n    T ret;\n    std::cin >>\
+    \ ret;\n    return ret;\n  }\n  template <class T>\n  operator std::vector<T>()\
     \ {\n    std::vector<T> ret(n);\n    REP(i,n) std::cin >> ret[i];\n    return\
     \ ret;\n  }\n};\ntemplate <class T>\ninline void printVec(std::vector<T> v){\n\
     \  REP(i,v.size()){\n    if(i) std::cout << \" \";\n    std::cout << v[i];\n \
@@ -68,11 +72,9 @@ data:
     #define PAD setfill('0')<<right<<setw(8)\n\ntemplate <class T>\ninline bool chmin(T\
     \ &a, T b) {\n  if(a > b){ a = b; return true;}\n  return false;\n}\ntemplate\
     \ <class T>\ninline bool chmax(T &a, T b) {\n  if(a < b){a = b; return true;}\n\
-    \  return false;\n}\ntemplate <class T>\nT GCD(T a, T b) {\n  if (b == 0) return\
-    \ a;\n  return GCD(b, a % b);\n}\ntemplate <class T>\ninline T LCM(T a, T b) {\n\
-    \  return (a * b) / GCD(a, b);\n}\nstruct input{\n  int n;\n  input() {}\n  input(int\
-    \ n_) : n(n_){};\n  template <class T>\n  operator T(){\n    T ret;\n    std::cin\
-    \ >> ret;\n    return ret;\n  }\n  template <class T>\n  operator std::vector<T>()\
+    \  return false;\n}\nstruct input{\n  int n;\n  input() {}\n  input(int n_) :\
+    \ n(n_){};\n  template <class T>\n  operator T(){\n    T ret;\n    std::cin >>\
+    \ ret;\n    return ret;\n  }\n  template <class T>\n  operator std::vector<T>()\
     \ {\n    std::vector<T> ret(n);\n    REP(i,n) std::cin >> ret[i];\n    return\
     \ ret;\n  }\n};\ntemplate <class T>\ninline void printVec(std::vector<T> v){\n\
     \  REP(i,v.size()){\n    if(i) std::cout << \" \";\n    std::cout << v[i];\n \
@@ -81,11 +83,13 @@ data:
   isVerificationFile: false
   path: template/template.hpp
   requiredBy: []
-  timestamp: '2022-11-13 19:46:41+09:00'
+  timestamp: '2022-11-17 17:32:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - verify/LC-Unionfind.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp
+  - verify/AOJ-NTL_1_C.test.cpp
+  - verify/AOJ-ALDS1_1_B.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
 documentation_of: template/template.hpp

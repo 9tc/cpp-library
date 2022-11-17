@@ -2,8 +2,8 @@
 data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
-    path: sort/insertion-sort.hpp
-    title: sort/insertion-sort.hpp
+    path: math/gcd.hpp
+    title: math/gcd.hpp
   - icon: ':heavy_check_mark:'
     path: template/template.hpp
     title: template/template.hpp
@@ -14,10 +14,10 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_A
+    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_B
     links:
-    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_A
-  bundledCode: "#line 1 \"verify/AOJ-ALDS1_1_A.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_A\"\
+    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_B
+  bundledCode: "#line 1 \"verify/AOJ-ALDS1_1_B.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_B\"\
     \n\n#line 1 \"template/template.hpp\"\n#include<bits/stdc++.h>\nusing ll = long\
     \ long;\n#define REP(i, n) for(ll i = 0; (i) < ll(n); ++ (i))\n#define FOR(i,\
     \ m, n) for(ll i = (m); (i) <= ll(n); ++ (i))\n#define REPR(i, n) for(ll i = ll(n)\
@@ -44,34 +44,26 @@ data:
     \ {\n    std::vector<T> ret(n);\n    REP(i,n) std::cin >> ret[i];\n    return\
     \ ret;\n  }\n};\ntemplate <class T>\ninline void printVec(std::vector<T> v){\n\
     \  REP(i,v.size()){\n    if(i) std::cout << \" \";\n    std::cout << v[i];\n \
-    \ } std::cout << std::endl;\n}\n\nusing namespace std;\n#line 2 \"sort/insertion-sort.hpp\"\
-    \ntemplate <class T>\nvoid insertionSort(vector<T> &target, bool print){\n  int\
-    \ n = target.size();\n  for(int i = 1; i < n; ++i){\n    T v = target[i];\n  \
-    \  int j = i-1;\n    while(j >= 0 && target[j] > v){\n      target[j+1] = target[j];\n\
-    \      --j;\n    }\n    target[j+1] = v;\n    if(print){\n      for(int i = 0;\
-    \ i < n; ++i){\n        cout << (i ? \" \": \"\") << target[i];\n      }\n   \
-    \   cout << endl;\n    }\n  }\n}\n#line 5 \"verify/AOJ-ALDS1_1_A.test.cpp\"\n\n\
-    int main(){\n  int n;\n  cin >> n;\n  vector<int> a(n);\n  REP(i,n) cin >> a[i];\n\
-    \  for(int i = 0; i < n; ++i){\n    cout << (i ? \" \": \"\") << a[i];\n  }\n\
-    \  cout << endl;\n  insertionSort(a, true);\n}\n"
-  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_A\"\
-    \n\n#include \"../template/template.hpp\"\n#include \"../sort/insertion-sort.hpp\"\
-    \n\nint main(){\n  int n;\n  cin >> n;\n  vector<int> a(n);\n  REP(i,n) cin >>\
-    \ a[i];\n  for(int i = 0; i < n; ++i){\n    cout << (i ? \" \": \"\") << a[i];\n\
-    \  }\n  cout << endl;\n  insertionSort(a, true);\n}\n"
+    \ } std::cout << std::endl;\n}\n\nusing namespace std;\n#line 2 \"math/gcd.hpp\"\
+    \ntemplate <class T>\nT GCD(T a, T b){\n  if(b == 0) return a;\n  return GCD(b,\
+    \ a % b);\n}\n#line 5 \"verify/AOJ-ALDS1_1_B.test.cpp\"\n\nint main(){\n  int\
+    \ x, y;\n  cin >> x >> y;\n  cout << GCD(x, y) << endl;\n}\n"
+  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_B\"\
+    \n\n#include \"../template/template.hpp\"\n#include \"../math/gcd.hpp\"\n\nint\
+    \ main(){\n  int x, y;\n  cin >> x >> y;\n  cout << GCD(x, y) << endl;\n}\n"
   dependsOn:
   - template/template.hpp
-  - sort/insertion-sort.hpp
+  - math/gcd.hpp
   isVerificationFile: true
-  path: verify/AOJ-ALDS1_1_A.test.cpp
+  path: verify/AOJ-ALDS1_1_B.test.cpp
   requiredBy: []
-  timestamp: '2022-11-17 17:32:45+09:00'
+  timestamp: '2022-11-17 17:37:58+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: verify/AOJ-ALDS1_1_A.test.cpp
+documentation_of: verify/AOJ-ALDS1_1_B.test.cpp
 layout: document
 redirect_from:
-- /verify/verify/AOJ-ALDS1_1_A.test.cpp
-- /verify/verify/AOJ-ALDS1_1_A.test.cpp.html
-title: verify/AOJ-ALDS1_1_A.test.cpp
+- /verify/verify/AOJ-ALDS1_1_B.test.cpp
+- /verify/verify/AOJ-ALDS1_1_B.test.cpp.html
+title: verify/AOJ-ALDS1_1_B.test.cpp
 ---
