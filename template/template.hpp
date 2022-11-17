@@ -47,15 +47,6 @@ inline bool chmax(T &a, T b) {
   if(a < b){a = b; return true;}
   return false;
 }
-template <class T>
-T GCD(T a, T b) {
-  if (b == 0) return a;
-  return GCD(b, a % b);
-}
-template <class T>
-inline T LCM(T a, T b) {
-  return (a * b) / GCD(a, b);
-}
 struct input{
   int n;
   input() {}
