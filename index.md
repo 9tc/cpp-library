@@ -18,6 +18,9 @@ data:
       path: math/gcd.hpp
       title: math/gcd.hpp
     - icon: ':heavy_check_mark:'
+      path: math/is-prime.hpp
+      title: math/is-prime.hpp
+    - icon: ':heavy_check_mark:'
       path: math/lcm.hpp
       title: math/lcm.hpp
   - name: sort
@@ -39,6 +42,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ALDS1_1_B.test.cpp
       title: verify/AOJ-ALDS1_1_B.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-ALDS1_1_C.test.cpp
+      title: verify/AOJ-ALDS1_1_C.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ITP1_3_D.test.cpp
       title: verify/AOJ-ITP1_3_D.test.cpp
