@@ -31,6 +31,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: sort/insertion-sort.hpp
       title: sort/insertion-sort.hpp
+    - icon: ':heavy_check_mark:'
+      path: sort/selection-sort.hpp
+      title: sort/selection-sort.hpp
   - name: template
     pages:
     - icon: ':heavy_check_mark:'
@@ -51,6 +54,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ALDS1_2_A.test.cpp
       title: verify/AOJ-ALDS1_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-ALDS1_2_B.test.cpp
+      title: verify/AOJ-ALDS1_2_B.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ITP1_3_D.test.cpp
       title: verify/AOJ-ITP1_3_D.test.cpp
