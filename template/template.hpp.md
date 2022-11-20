@@ -13,6 +13,9 @@ data:
     path: verify/AOJ-ALDS1_1_C.test.cpp
     title: verify/AOJ-ALDS1_1_C.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-ALDS1_2_A.test.cpp
+    title: verify/AOJ-ALDS1_2_A.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/AOJ-ITP1_3_D.test.cpp
     title: verify/AOJ-ITP1_3_D.test.cpp
   - icon: ':heavy_check_mark:'
@@ -93,6 +96,7 @@ data:
   - verify/LC-Unionfind.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp
   - verify/AOJ-NTL_1_C.test.cpp
+  - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-ALDS1_1_B.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
