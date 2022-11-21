@@ -9,6 +9,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: data-structure/unionfind.hpp
       title: data-structure/unionfind.hpp
+    - icon: ':heavy_check_mark:'
+      path: data-structure/weighted-unionfind.hpp
+      title: data-structure/weighted-unionfind.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -57,6 +60,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ALDS1_2_B.test.cpp
       title: verify/AOJ-ALDS1_2_B.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-DSL_1_B.test.cpp
+      title: verify/AOJ-DSL_1_B.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ITP1_3_D.test.cpp
       title: verify/AOJ-ITP1_3_D.test.cpp
