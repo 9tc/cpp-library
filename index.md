@@ -12,6 +12,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: data-structure/weighted-unionfind.hpp
       title: data-structure/weighted-unionfind.hpp
+  - name: dp
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: dp/longest-increasing-subsequence.hpp
+      title: dp/longest-increasing-subsequence.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -60,6 +65,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ALDS1_2_B.test.cpp
       title: verify/AOJ-ALDS1_2_B.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-DPL_1_D.test.cpp
+      title: verify/AOJ-DPL_1_D.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-DSL_1_B.test.cpp
       title: verify/AOJ-DSL_1_B.test.cpp
