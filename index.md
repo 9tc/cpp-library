@@ -40,6 +40,9 @@ data:
       path: sort/bubble-sort.hpp
       title: sort/bubble-sort.hpp
     - icon: ':heavy_check_mark:'
+      path: sort/bucket-sort.hpp
+      title: sort/bucket-sort.hpp
+    - icon: ':heavy_check_mark:'
       path: sort/insertion-sort.hpp
       title: sort/insertion-sort.hpp
     - icon: ':heavy_check_mark:'
@@ -68,6 +71,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ALDS1_2_B.test.cpp
       title: verify/AOJ-ALDS1_2_B.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-ALDS1_6_A.test.cpp
+      title: verify/AOJ-ALDS1_6_A.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-DPL_1_D.test.cpp
       title: verify/AOJ-DPL_1_D.test.cpp

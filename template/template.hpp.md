@@ -19,6 +19,9 @@ data:
     path: verify/AOJ-ALDS1_2_B.test.cpp
     title: verify/AOJ-ALDS1_2_B.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-ALDS1_6_A.test.cpp
+    title: verify/AOJ-ALDS1_6_A.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/AOJ-DPL_1_D.test.cpp
     title: verify/AOJ-DPL_1_D.test.cpp
   - icon: ':heavy_check_mark:'
@@ -104,18 +107,19 @@ data:
   timestamp: '2022-11-17 17:32:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - verify/AOJ-NTL_1_A.test.cpp
-  - verify/AOJ-DPL_1_D.test.cpp
-  - verify/AOJ-ALDS1_1_C.test.cpp
-  - verify/LC-Unionfind.test.cpp
+  - verify/AOJ-ALDS1_6_A.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp
-  - verify/AOJ-NTL_1_C.test.cpp
-  - verify/AOJ-ALDS1_2_B.test.cpp
   - verify/AOJ-ALDS1_2_A.test.cpp
-  - verify/AOJ-DSL_1_B.test.cpp
-  - verify/AOJ-ALDS1_1_B.test.cpp
+  - verify/AOJ-NTL_1_A.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
+  - verify/AOJ-ALDS1_2_B.test.cpp
+  - verify/AOJ-NTL_1_C.test.cpp
+  - verify/AOJ-DPL_1_D.test.cpp
+  - verify/AOJ-DSL_1_B.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
+  - verify/AOJ-ALDS1_1_C.test.cpp
+  - verify/AOJ-ALDS1_1_B.test.cpp
+  - verify/LC-Unionfind.test.cpp
 documentation_of: template/template.hpp
 layout: document
 redirect_from:
