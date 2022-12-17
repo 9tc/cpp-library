@@ -5,10 +5,16 @@ data:
   - icon: ':heavy_check_mark:'
     path: data-structure/segment-tree/range-minimum-query.hpp
     title: data-structure/segment-tree/range-minimum-query.hpp
+  - icon: ':heavy_check_mark:'
+    path: data-structure/segment-tree/range-sum-query.hpp
+    title: data-structure/segment-tree/range-sum-query.hpp
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: verify/AOJ-DSL_2_A.test.cpp
     title: verify/AOJ-DSL_2_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: verify/LC-PointAddRangeSum.test.cpp
+    title: verify/LC-PointAddRangeSum.test.cpp
   - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRMQ(SegmentTree).test.cpp
     title: verify/LC-StaticRMQ(SegmentTree).test.cpp
@@ -75,9 +81,11 @@ data:
   path: data-structure/segment-tree/segment-tree.hpp
   requiredBy:
   - data-structure/segment-tree/range-minimum-query.hpp
+  - data-structure/segment-tree/range-sum-query.hpp
   timestamp: '2022-12-18 03:42:02+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - verify/LC-PointAddRangeSum.test.cpp
   - verify/LC-StaticRMQ(SegmentTree).test.cpp
   - verify/AOJ-DSL_2_A.test.cpp
 documentation_of: data-structure/segment-tree/segment-tree.hpp

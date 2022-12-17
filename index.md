@@ -18,6 +18,9 @@ data:
       path: data-structure/segment-tree/range-minimum-query.hpp
       title: data-structure/segment-tree/range-minimum-query.hpp
     - icon: ':heavy_check_mark:'
+      path: data-structure/segment-tree/range-sum-query.hpp
+      title: data-structure/segment-tree/range-sum-query.hpp
+    - icon: ':heavy_check_mark:'
       path: data-structure/segment-tree/segment-tree.hpp
       title: data-structure/segment-tree/segment-tree.hpp
   - name: dp
@@ -100,6 +103,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_C.test.cpp
       title: verify/AOJ-NTL_1_C.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/LC-PointAddRangeSum.test.cpp
+      title: verify/LC-PointAddRangeSum.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-StaticRMQ(SegmentTree).test.cpp
       title: verify/LC-StaticRMQ(SegmentTree).test.cpp

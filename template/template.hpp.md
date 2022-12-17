@@ -40,6 +40,9 @@ data:
     path: verify/AOJ-NTL_1_C.test.cpp
     title: verify/AOJ-NTL_1_C.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/LC-PointAddRangeSum.test.cpp
+    title: verify/LC-PointAddRangeSum.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRMQ(SegmentTree).test.cpp
     title: verify/LC-StaticRMQ(SegmentTree).test.cpp
   - icon: ':heavy_check_mark:'
@@ -120,6 +123,7 @@ data:
   - verify/AOJ-DSL_1_B.test.cpp
   - verify/LC-Unionfind.test.cpp
   - verify/LC-StaticRangeSum.test.cpp
+  - verify/LC-PointAddRangeSum.test.cpp
   - verify/LC-StaticRMQ(SegmentTree).test.cpp
   - verify/AOJ-ALDS1_6_A.test.cpp
   - verify/AOJ-ALDS1_2_A.test.cpp
