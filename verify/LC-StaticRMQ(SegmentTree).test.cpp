@@ -1,7 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/staticrmq"
 
 #include "../template/template.hpp"
-#include "../data-structure/range-minimum-query.hpp"
+#include "../data-structure/segment-tree/range-minimum-query.hpp"
 
 int main(){
   int N, Q;
