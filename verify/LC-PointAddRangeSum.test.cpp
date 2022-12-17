@@ -8,7 +8,7 @@ int main(){
   cin >> N >> Q;
   VL a = input(N);
   RangeSumQuery rsq(N);
-  REP(i,n) rsq.update(i, a[i]);
+  REP(i,N) rsq.update(i, a[i]);
 
   REP(i,Q){
     int state;
