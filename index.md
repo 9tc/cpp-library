@@ -15,6 +15,12 @@ data:
   - name: data-structure/segment-tree
     pages:
     - icon: ':heavy_check_mark:'
+      path: data-structure/segment-tree/lazy-segment-tree.hpp
+      title: data-structure/segment-tree/lazy-segment-tree.hpp
+    - icon: ':heavy_check_mark:'
+      path: data-structure/segment-tree/range-affine-range-sum-query.hpp
+      title: data-structure/segment-tree/range-affine-range-sum-query.hpp
+    - icon: ':heavy_check_mark:'
       path: data-structure/segment-tree/range-minimum-query.hpp
       title: data-structure/segment-tree/range-minimum-query.hpp
     - icon: ':heavy_check_mark:'
@@ -106,6 +112,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/LC-PointAddRangeSum.test.cpp
       title: verify/LC-PointAddRangeSum.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/LC-RangeAffineRangeSum.test.cpp
+      title: verify/LC-RangeAffineRangeSum.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-StaticRMQ(SegmentTree).test.cpp
       title: verify/LC-StaticRMQ(SegmentTree).test.cpp

@@ -43,6 +43,9 @@ data:
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/LC-RangeAffineRangeSum.test.cpp
+    title: verify/LC-RangeAffineRangeSum.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-StaticRMQ(SegmentTree).test.cpp
     title: verify/LC-StaticRMQ(SegmentTree).test.cpp
   - icon: ':heavy_check_mark:'
@@ -128,6 +131,7 @@ data:
   - verify/AOJ-ALDS1_6_A.test.cpp
   - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp
+  - verify/LC-RangeAffineRangeSum.test.cpp
   - verify/AOJ-ALDS1_1_B.test.cpp
   - verify/AOJ-DSL_2_A.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
