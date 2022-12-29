@@ -40,6 +40,9 @@ data:
       path: graph/cycle-detection.hpp
       title: graph/cycle-detection.hpp
     - icon: ':heavy_check_mark:'
+      path: graph/dijkstra-with-cost.hpp
+      title: graph/dijkstra-with-cost.hpp
+    - icon: ':heavy_check_mark:'
       path: graph/dijkstra-with-walk.hpp
       title: graph/dijkstra-with-walk.hpp
   - name: math
@@ -108,6 +111,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-DSL_2_A.test.cpp
       title: verify/AOJ-DSL_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-GRL_1_A.test.cpp
+      title: verify/AOJ-GRL_1_A.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-ITP1_3_D.test.cpp
       title: verify/AOJ-ITP1_3_D.test.cpp
