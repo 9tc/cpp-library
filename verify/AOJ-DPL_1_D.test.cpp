@@ -8,5 +8,5 @@ int main(){
   cin >> n;
   vector<int> a(n);
   REP(i,n) cin >> a[i];
-  cout << lis(a, true) << endl;
+  cout << lis(a).size() << endl;
 }
