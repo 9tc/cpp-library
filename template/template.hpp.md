@@ -49,6 +49,9 @@ data:
     path: verify/LC-CycleDetection(Directed).test.cpp
     title: verify/LC-CycleDetection(Directed).test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/LC-LongestIncreasingSubsequence.test.cpp
+    title: verify/LC-LongestIncreasingSubsequence.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
   - icon: ':heavy_check_mark:'
@@ -142,6 +145,7 @@ data:
   - verify/LC-StaticRangeSum.test.cpp
   - verify/LC-PointAddRangeSum.test.cpp
   - verify/LC-StaticRMQ(SegmentTree).test.cpp
+  - verify/LC-LongestIncreasingSubsequence.test.cpp
   - verify/AOJ-ALDS1_6_A.test.cpp
   - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp

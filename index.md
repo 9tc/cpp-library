@@ -133,6 +133,9 @@ data:
       path: verify/LC-CycleDetection(Directed).test.cpp
       title: verify/LC-CycleDetection(Directed).test.cpp
     - icon: ':heavy_check_mark:'
+      path: verify/LC-LongestIncreasingSubsequence.test.cpp
+      title: verify/LC-LongestIncreasingSubsequence.test.cpp
+    - icon: ':heavy_check_mark:'
       path: verify/LC-PointAddRangeSum.test.cpp
       title: verify/LC-PointAddRangeSum.test.cpp
     - icon: ':heavy_check_mark:'

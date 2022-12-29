@@ -14,11 +14,12 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_D
+    PROBLEM: https://judge.yosupo.jp/problem/longest_increasing_subsequence
     links:
-    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_D
-  bundledCode: "#line 1 \"verify/AOJ-DPL_1_D.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_D\"\
-    \n\n#line 1 \"template/template.hpp\"\n#include<bits/stdc++.h>\nusing ll = long\
+    - https://judge.yosupo.jp/problem/longest_increasing_subsequence
+  bundledCode: "#line 1 \"verify/LC-LongestIncreasingSubsequence.test.cpp\"\n#define\
+    \ PROBLEM \"https://judge.yosupo.jp/problem/longest_increasing_subsequence\"\n\
+    \n#line 1 \"template/template.hpp\"\n#include<bits/stdc++.h>\nusing ll = long\
     \ long;\n#define REP(i, n) for(ll i = 0; (i) < ll(n); ++ (i))\n#define FOR(i,\
     \ m, n) for(ll i = (m); (i) <= ll(n); ++ (i))\n#define REPR(i, n) for(ll i = ll(n)\
     \ - 1; (i) >= 0; -- (i))\n#define FORR(i, m, n) for(ll i = ll(n); (i) >= ll(m);\
@@ -51,26 +52,26 @@ data:
     \ upper_bound(l.begin(), l.end(), a[i]);\n    prev[i] = it - l.begin();\n    if(it\
     \ == l.end()) l.push_back(a[i]);\n    else *it = a[i];\n  }\n\n  int idx = l.size()\
     \ - 1;\n  vector<T> res(l.size());\n  for(int i = n - 1; i >= 0; --i){\n    if(prev[i]\
-    \ == idx) res[idx--] = i;\n  }\n  return res;\n}\n#line 5 \"verify/AOJ-DPL_1_D.test.cpp\"\
-    \n\nint main(){\n  int n;\n  cin >> n;\n  vector<int> a(n);\n  REP(i,n) cin >>\
-    \ a[i];\n  cout << lis(a).size() << endl;\n}\n"
-  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_D\"\
+    \ == idx) res[idx--] = i;\n  }\n  return res;\n}\n#line 5 \"verify/LC-LongestIncreasingSubsequence.test.cpp\"\
+    \n\nint main(){\n  int N;\n  cin >> N;\n  VI a = input(N);\n\n  auto res = lis(a);\n\
+    \  cout << res.size() << endl;\n  printVec(res);\n}\n"
+  code: "#define PROBLEM \"https://judge.yosupo.jp/problem/longest_increasing_subsequence\"\
     \n\n#include \"../template/template.hpp\"\n#include \"../dp/longest-increasing-subsequence.hpp\"\
-    \n\nint main(){\n  int n;\n  cin >> n;\n  vector<int> a(n);\n  REP(i,n) cin >>\
-    \ a[i];\n  cout << lis(a).size() << endl;\n}\n"
+    \n\nint main(){\n  int N;\n  cin >> N;\n  VI a = input(N);\n\n  auto res = lis(a);\n\
+    \  cout << res.size() << endl;\n  printVec(res);\n}\n"
   dependsOn:
   - template/template.hpp
   - dp/longest-increasing-subsequence.hpp
   isVerificationFile: true
-  path: verify/AOJ-DPL_1_D.test.cpp
+  path: verify/LC-LongestIncreasingSubsequence.test.cpp
   requiredBy: []
   timestamp: '2022-12-30 06:44:14+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: verify/AOJ-DPL_1_D.test.cpp
+documentation_of: verify/LC-LongestIncreasingSubsequence.test.cpp
 layout: document
 redirect_from:
-- /verify/verify/AOJ-DPL_1_D.test.cpp
-- /verify/verify/AOJ-DPL_1_D.test.cpp.html
-title: verify/AOJ-DPL_1_D.test.cpp
+- /verify/verify/LC-LongestIncreasingSubsequence.test.cpp
+- /verify/verify/LC-LongestIncreasingSubsequence.test.cpp.html
+title: verify/LC-LongestIncreasingSubsequence.test.cpp
 ---
