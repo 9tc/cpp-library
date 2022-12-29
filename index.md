@@ -39,6 +39,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: graph/cycle-detection.hpp
       title: graph/cycle-detection.hpp
+    - icon: ':heavy_check_mark:'
+      path: graph/dijkstra-with-walk.hpp
+      title: graph/dijkstra-with-walk.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -123,6 +126,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/LC-RangeAffineRangeSum.test.cpp
       title: verify/LC-RangeAffineRangeSum.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/LC-ShortestPath.test.cpp
+      title: verify/LC-ShortestPath.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-StaticRMQ(SegmentTree).test.cpp
       title: verify/LC-StaticRMQ(SegmentTree).test.cpp
