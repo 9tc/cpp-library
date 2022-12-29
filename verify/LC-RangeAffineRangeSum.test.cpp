@@ -6,11 +6,11 @@
 int main(){
   int N, Q;
   cin >> N >> Q;
-  VL a = input(n);
+  VL a = input(N);
 
-  RangeAffineRangeSumQuery<ll> rsq(n, 998244353);
-  REP(i,n) rsq.set(i, a[i]);
-  REP(i,q){
+  RangeAffineRangeSumQuery<ll> rsq(N, 998244353);
+  REP(i,N) rsq.set(i, a[i]);
+  REP(i,Q){
     int t;
     cin >> t;
     if(t == 0){
