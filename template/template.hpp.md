@@ -40,6 +40,9 @@ data:
     path: verify/AOJ-NTL_1_C.test.cpp
     title: verify/AOJ-NTL_1_C.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/LC-CycleDetection(Directed).test.cpp
+    title: verify/LC-CycleDetection(Directed).test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
   - icon: ':heavy_check_mark:'
@@ -136,6 +139,7 @@ data:
   - verify/AOJ-DSL_2_A.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
   - verify/AOJ-DPL_1_D.test.cpp
+  - verify/LC-CycleDetection(Directed).test.cpp
 documentation_of: template/template.hpp
 layout: document
 redirect_from:

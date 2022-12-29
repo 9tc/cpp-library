@@ -34,6 +34,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: dp/longest-increasing-subsequence.hpp
       title: dp/longest-increasing-subsequence.hpp
+  - name: graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: graph/cycle-detection.hpp
+      title: graph/cycle-detection.hpp
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -109,6 +114,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_C.test.cpp
       title: verify/AOJ-NTL_1_C.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/LC-CycleDetection(Directed).test.cpp
+      title: verify/LC-CycleDetection(Directed).test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-PointAddRangeSum.test.cpp
       title: verify/LC-PointAddRangeSum.test.cpp
