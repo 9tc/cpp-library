@@ -72,6 +72,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: verify/LC-Unionfind.test.cpp
     title: verify/LC-Unionfind.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: verify/LC-zalgorithm.test.cpp
+    title: verify/LC-zalgorithm.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -149,6 +152,7 @@ data:
   - verify/LC-PointAddRangeSum.test.cpp
   - verify/LC-StaticRMQ(SegmentTree).test.cpp
   - verify/LC-LongestIncreasingSubsequence.test.cpp
+  - verify/LC-zalgorithm.test.cpp
   - verify/AOJ-ALDS1_6_A.test.cpp
   - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-ALDS1_1_A.test.cpp

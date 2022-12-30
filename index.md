@@ -82,6 +82,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: sort/selection-sort.hpp
       title: sort/selection-sort.hpp
+  - name: string
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: string/z-algorithm.hpp
+      title: string/z-algorithm.hpp
   - name: template
     pages:
     - icon: ':heavy_check_mark:'
@@ -159,6 +164,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/LC-Unionfind.test.cpp
       title: verify/LC-Unionfind.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/LC-zalgorithm.test.cpp
+      title: verify/LC-zalgorithm.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/example.test.cpp
       title: verify/example.test.cpp
