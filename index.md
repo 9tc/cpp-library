@@ -54,6 +54,9 @@ data:
       path: math/divisor.hpp
       title: math/divisor.hpp
     - icon: ':heavy_check_mark:'
+      path: math/extend-gcd.hpp
+      title: math/extend-gcd.hpp
+    - icon: ':heavy_check_mark:'
       path: math/gcd.hpp
       title: math/gcd.hpp
     - icon: ':heavy_check_mark:'
@@ -129,6 +132,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_C.test.cpp
       title: verify/AOJ-NTL_1_C.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-NTL_1_E.test.cpp
+      title: verify/AOJ-NTL_1_E.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/LC-CycleDetection(Directed).test.cpp
       title: verify/LC-CycleDetection(Directed).test.cpp

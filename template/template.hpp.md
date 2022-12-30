@@ -46,6 +46,9 @@ data:
     path: verify/AOJ-NTL_1_C.test.cpp
     title: verify/AOJ-NTL_1_C.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-NTL_1_E.test.cpp
+    title: verify/AOJ-NTL_1_E.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/LC-CycleDetection(Directed).test.cpp
     title: verify/LC-CycleDetection(Directed).test.cpp
   - icon: ':heavy_check_mark:'
@@ -152,6 +155,7 @@ data:
   - verify/LC-RangeAffineRangeSum.test.cpp
   - verify/AOJ-ALDS1_1_B.test.cpp
   - verify/AOJ-DSL_2_A.test.cpp
+  - verify/AOJ-NTL_1_E.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
   - verify/LC-ShortestPath.test.cpp
   - verify/AOJ-DPL_1_D.test.cpp
