@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-GRL_1_A.test.cpp
     title: verify/AOJ-GRL_1_A.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"graph/dijkstra-with-cost.hpp\"\nvector<ll> dijkstraWithCost(CostGraph&\
@@ -28,8 +28,8 @@ data:
   isVerificationFile: false
   path: graph/dijkstra-with-cost.hpp
   requiredBy: []
-  timestamp: '2022-12-30 04:30:49+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 04:33:07+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-GRL_1_A.test.cpp
 documentation_of: graph/dijkstra-with-cost.hpp
@@ -37,5 +37,6 @@ layout: document
 redirect_from:
 - /library/graph/dijkstra-with-cost.hpp
 - /library/graph/dijkstra-with-cost.hpp.html
-title: graph/dijkstra-with-cost.hpp
+title: "\u5358\u4E00\u59CB\u70B9\u6700\u77ED\u7D4C\u8DEF(\u30C0\u30A4\u30AF\u30B9\u30C8\
+  \u30E9\u6CD5)"
 ---

@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/range-minimum-query.hpp
     title: data-structure/segment-tree/range-minimum-query.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/segment-tree.hpp
     title: data-structure/segment-tree/segment-tree.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.yosupo.jp/problem/staticrmq
@@ -94,8 +94,8 @@ data:
   isVerificationFile: true
   path: verify/LC-StaticRMQ(SegmentTree).test.cpp
   requiredBy: []
-  timestamp: '2022-12-18 03:43:29+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-12-18 04:16:09+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/LC-StaticRMQ(SegmentTree).test.cpp
 layout: document

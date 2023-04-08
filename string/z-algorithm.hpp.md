@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-zalgorithm.test.cpp
     title: verify/LC-zalgorithm.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"string/z-algorithm.hpp\"\nvector<int> ZAlgorithm(string\
@@ -27,8 +27,8 @@ data:
   isVerificationFile: false
   path: string/z-algorithm.hpp
   requiredBy: []
-  timestamp: '2022-12-30 22:49:10+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 22:47:10+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-zalgorithm.test.cpp
 documentation_of: string/z-algorithm.hpp
@@ -36,5 +36,5 @@ layout: document
 redirect_from:
 - /library/string/z-algorithm.hpp
 - /library/string/z-algorithm.hpp.html
-title: string/z-algorithm.hpp
+title: Z Algorithm
 ---

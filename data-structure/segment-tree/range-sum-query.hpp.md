@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/segment-tree.hpp
     title: data-structure/segment-tree/segment-tree.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"data-structure/segment-tree/segment-tree.hpp\"\ntemplate\
@@ -57,8 +57,8 @@ data:
   isVerificationFile: false
   path: data-structure/segment-tree/range-sum-query.hpp
   requiredBy: []
-  timestamp: '2022-12-18 04:27:33+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-18 17:34:43+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-PointAddRangeSum.test.cpp
 documentation_of: data-structure/segment-tree/range-sum-query.hpp

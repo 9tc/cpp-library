@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: sort/bucket-sort.hpp
     title: sort/bucket-sort.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_6_A
@@ -62,8 +62,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-ALDS1_6_A.test.cpp
   requiredBy: []
-  timestamp: '2022-11-29 19:08:48+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-11-29 19:12:01+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/AOJ-ALDS1_6_A.test.cpp
 layout: document

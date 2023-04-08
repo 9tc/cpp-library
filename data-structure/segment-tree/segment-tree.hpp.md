@@ -2,25 +2,25 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/range-minimum-query.hpp
     title: data-structure/segment-tree/range-minimum-query.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/range-sum-query.hpp
     title: data-structure/segment-tree/range-sum-query.hpp
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DSL_2_A.test.cpp
     title: verify/AOJ-DSL_2_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-StaticRMQ(SegmentTree).test.cpp
     title: verify/LC-StaticRMQ(SegmentTree).test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"data-structure/segment-tree/segment-tree.hpp\"\ntemplate\
@@ -80,14 +80,14 @@ data:
   isVerificationFile: false
   path: data-structure/segment-tree/segment-tree.hpp
   requiredBy:
-  - data-structure/segment-tree/range-minimum-query.hpp
   - data-structure/segment-tree/range-sum-query.hpp
-  timestamp: '2022-12-18 03:42:02+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  - data-structure/segment-tree/range-minimum-query.hpp
+  timestamp: '2022-12-18 04:16:09+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-PointAddRangeSum.test.cpp
-  - verify/LC-StaticRMQ(SegmentTree).test.cpp
   - verify/AOJ-DSL_2_A.test.cpp
+  - verify/LC-StaticRMQ(SegmentTree).test.cpp
 documentation_of: data-structure/segment-tree/segment-tree.hpp
 layout: document
 redirect_from:

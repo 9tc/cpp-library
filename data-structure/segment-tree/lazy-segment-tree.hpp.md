@@ -2,16 +2,16 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/segment-tree/range-affine-range-sum-query.hpp
     title: data-structure/segment-tree/range-affine-range-sum-query.hpp
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-RangeAffineRangeSum.test.cpp
     title: verify/LC-RangeAffineRangeSum.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"data-structure/segment-tree/lazy-segment-tree.hpp\"\ntemplate\
@@ -112,8 +112,8 @@ data:
   path: data-structure/segment-tree/lazy-segment-tree.hpp
   requiredBy:
   - data-structure/segment-tree/range-affine-range-sum-query.hpp
-  timestamp: '2022-12-30 01:29:28+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 01:32:33+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-RangeAffineRangeSum.test.cpp
 documentation_of: data-structure/segment-tree/lazy-segment-tree.hpp

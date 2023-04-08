@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: graph/dijkstra-with-walk.hpp
     title: graph/dijkstra-with-walk.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.yosupo.jp/problem/shortest_path
@@ -76,8 +76,8 @@ data:
   isVerificationFile: true
   path: verify/LC-ShortestPath.test.cpp
   requiredBy: []
-  timestamp: '2022-12-30 04:15:53+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-12-30 04:18:31+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/LC-ShortestPath.test.cpp
 layout: document

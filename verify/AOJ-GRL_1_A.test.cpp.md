@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: graph/dijkstra-with-cost.hpp
     title: graph/dijkstra-with-cost.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A
@@ -67,8 +67,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-GRL_1_A.test.cpp
   requiredBy: []
-  timestamp: '2022-12-30 04:30:49+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-12-30 04:33:07+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/AOJ-GRL_1_A.test.cpp
 layout: document

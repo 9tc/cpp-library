@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: data-structure/weighted-unionfind.hpp
     title: data-structure/weighted-unionfind.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_B
@@ -80,8 +80,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-DSL_1_B.test.cpp
   requiredBy: []
-  timestamp: '2022-11-21 09:08:54+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-11-21 09:10:20+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/AOJ-DSL_1_B.test.cpp
 layout: document

@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_2_B.test.cpp
     title: verify/AOJ-ALDS1_2_B.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"sort/selection-sort.hpp\"\ntemplate <class T>\nint selectionSort(vector<T>\
@@ -25,8 +25,8 @@ data:
   isVerificationFile: false
   path: sort/selection-sort.hpp
   requiredBy: []
-  timestamp: '2022-11-20 10:15:16+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-20 12:58:30+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-ALDS1_2_B.test.cpp
 documentation_of: sort/selection-sort.hpp
@@ -34,5 +34,5 @@ layout: document
 redirect_from:
 - /library/sort/selection-sort.hpp
 - /library/sort/selection-sort.hpp.html
-title: sort/selection-sort.hpp
+title: "\u9078\u629E\u30BD\u30FC\u30C8"
 ---

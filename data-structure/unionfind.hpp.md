@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-Unionfind.test.cpp
     title: verify/LC-Unionfind.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"data-structure/unionfind.hpp\"\nstruct UnionFind {\n  vector<int>\
@@ -40,8 +40,8 @@ data:
   isVerificationFile: false
   path: data-structure/unionfind.hpp
   requiredBy: []
-  timestamp: '2022-11-14 17:03:21+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-14 17:13:18+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-Unionfind.test.cpp
 documentation_of: data-structure/unionfind.hpp

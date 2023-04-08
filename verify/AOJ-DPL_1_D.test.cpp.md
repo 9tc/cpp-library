@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: dp/longest-increasing-subsequence.hpp
     title: dp/longest-increasing-subsequence.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_D
@@ -64,8 +64,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-DPL_1_D.test.cpp
   requiredBy: []
-  timestamp: '2022-12-30 06:44:14+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2023-01-14 10:54:35+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/AOJ-DPL_1_D.test.cpp
 layout: document

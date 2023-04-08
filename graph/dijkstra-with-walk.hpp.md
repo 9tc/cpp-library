@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-ShortestPath.test.cpp
     title: verify/LC-ShortestPath.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"graph/dijkstra-with-walk.hpp\"\npair<vector<ll>, vector<ll>>\
@@ -30,8 +30,8 @@ data:
   isVerificationFile: false
   path: graph/dijkstra-with-walk.hpp
   requiredBy: []
-  timestamp: '2022-12-30 04:15:53+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 04:18:31+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-ShortestPath.test.cpp
 documentation_of: graph/dijkstra-with-walk.hpp
@@ -39,5 +39,6 @@ layout: document
 redirect_from:
 - /library/graph/dijkstra-with-walk.hpp
 - /library/graph/dijkstra-with-walk.hpp.html
-title: graph/dijkstra-with-walk.hpp
+title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5(\u4E00\u3064\u524D\u306B\u901A\u3063\
+  \u305F\u9802\u70B9\u306E\u60C5\u5831\u4ED8\u304D)"
 ---

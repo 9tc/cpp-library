@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-NTL_1_E.test.cpp
     title: verify/AOJ-NTL_1_E.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"math/extend-gcd.hpp\"\ntemplate< typename T >\nT extendGCD(T\
@@ -22,8 +22,8 @@ data:
   isVerificationFile: false
   path: math/extend-gcd.hpp
   requiredBy: []
-  timestamp: '2022-12-30 22:27:41+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 22:29:44+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-NTL_1_E.test.cpp
 documentation_of: math/extend-gcd.hpp
@@ -31,5 +31,5 @@ layout: document
 redirect_from:
 - /library/math/extend-gcd.hpp
 - /library/math/extend-gcd.hpp.html
-title: math/extend-gcd.hpp
+title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
 ---

@@ -2,19 +2,19 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: math/lcm.hpp
     title: math/lcm.hpp
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_1_B.test.cpp
     title: verify/AOJ-ALDS1_1_B.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-NTL_1_C.test.cpp
     title: verify/AOJ-NTL_1_C.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"math/gcd.hpp\"\ntemplate <class T>\nT GCD(T a, T b){\n \
@@ -26,15 +26,16 @@ data:
   path: math/gcd.hpp
   requiredBy:
   - math/lcm.hpp
-  timestamp: '2022-11-17 17:34:18+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-17 17:44:39+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
-  - verify/AOJ-NTL_1_C.test.cpp
   - verify/AOJ-ALDS1_1_B.test.cpp
+  - verify/AOJ-NTL_1_C.test.cpp
 documentation_of: math/gcd.hpp
 layout: document
 redirect_from:
 - /library/math/gcd.hpp
 - /library/math/gcd.hpp.html
-title: math/gcd.hpp
+title: "\u6700\u5927\u516C\u7D04\u6570(\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\
+  \u9664\u6CD5)"
 ---

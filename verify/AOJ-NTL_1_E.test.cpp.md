@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: math/extend-gcd.hpp
     title: math/extend-gcd.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_E
@@ -60,8 +60,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-NTL_1_E.test.cpp
   requiredBy: []
-  timestamp: '2022-12-30 22:28:36+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2022-12-30 22:29:44+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: verify/AOJ-NTL_1_E.test.cpp
 layout: document

@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DSL_1_B.test.cpp
     title: verify/AOJ-DSL_1_B.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"data-structure/weighted-unionfind.hpp\"\ntemplate<class\
@@ -47,8 +47,8 @@ data:
   isVerificationFile: false
   path: data-structure/weighted-unionfind.hpp
   requiredBy: []
-  timestamp: '2022-11-21 09:08:54+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-21 09:10:20+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-DSL_1_B.test.cpp
 documentation_of: data-structure/weighted-unionfind.hpp

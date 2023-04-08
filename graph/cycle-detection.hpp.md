@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-CycleDetection(Directed).test.cpp
     title: verify/LC-CycleDetection(Directed).test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"graph/cycle-detection.hpp\"\nvector<int> detectCycle(Graph\
@@ -37,8 +37,8 @@ data:
   isVerificationFile: false
   path: graph/cycle-detection.hpp
   requiredBy: []
-  timestamp: '2022-12-30 04:02:02+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 04:09:10+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-CycleDetection(Directed).test.cpp
 documentation_of: graph/cycle-detection.hpp
@@ -46,5 +46,5 @@ layout: document
 redirect_from:
 - /library/graph/cycle-detection.hpp
 - /library/graph/cycle-detection.hpp.html
-title: graph/cycle-detection.hpp
+title: "\u9589\u8DEF\u5224\u5B9A"
 ---

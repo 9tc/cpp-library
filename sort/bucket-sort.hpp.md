@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_6_A.test.cpp
     title: verify/AOJ-ALDS1_6_A.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"sort/bucket-sort.hpp\"\nvoid bucketSort(vector<int> &target){\n\
@@ -26,8 +26,8 @@ data:
   isVerificationFile: false
   path: sort/bucket-sort.hpp
   requiredBy: []
-  timestamp: '2022-11-29 19:08:48+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-29 19:12:01+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-ALDS1_6_A.test.cpp
 documentation_of: sort/bucket-sort.hpp
@@ -35,5 +35,5 @@ layout: document
 redirect_from:
 - /library/sort/bucket-sort.hpp
 - /library/sort/bucket-sort.hpp.html
-title: sort/bucket-sort.hpp
+title: "\u30D0\u30B1\u30C4\u30BD\u30FC\u30C8"
 ---

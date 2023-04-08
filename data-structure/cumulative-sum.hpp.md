@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-StaticRangeSum.test.cpp
     title: verify/LC-StaticRangeSum.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"data-structure/cumulative-sum.hpp\"\ntemplate<class T>\n\
@@ -36,8 +36,8 @@ data:
   isVerificationFile: false
   path: data-structure/cumulative-sum.hpp
   requiredBy: []
-  timestamp: '2022-11-14 17:10:48+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-14 17:13:18+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-StaticRangeSum.test.cpp
 documentation_of: data-structure/cumulative-sum.hpp

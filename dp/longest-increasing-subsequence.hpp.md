@@ -3,15 +3,15 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DPL_1_D.test.cpp
     title: verify/AOJ-DPL_1_D.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-LongestIncreasingSubsequence.test.cpp
     title: verify/LC-LongestIncreasingSubsequence.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"dp/longest-increasing-subsequence.hpp\"\ntemplate<class\
@@ -33,8 +33,8 @@ data:
   isVerificationFile: false
   path: dp/longest-increasing-subsequence.hpp
   requiredBy: []
-  timestamp: '2022-12-30 06:44:14+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2023-01-14 10:54:35+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/LC-LongestIncreasingSubsequence.test.cpp
   - verify/AOJ-DPL_1_D.test.cpp
@@ -43,5 +43,5 @@ layout: document
 redirect_from:
 - /library/dp/longest-increasing-subsequence.hpp
 - /library/dp/longest-increasing-subsequence.hpp.html
-title: dp/longest-increasing-subsequence.hpp
+title: "\u6700\u9577\u5897\u52A0\u90E8\u5206\u5217"
 ---

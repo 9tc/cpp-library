@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_1_C.test.cpp
     title: verify/AOJ-ALDS1_1_C.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"math/is-prime.hpp\"\ntemplate <class T>\nbool isPrime(const\
@@ -21,8 +21,8 @@ data:
   isVerificationFile: false
   path: math/is-prime.hpp
   requiredBy: []
-  timestamp: '2022-11-17 17:55:59+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-11-17 17:56:55+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-ALDS1_1_C.test.cpp
 documentation_of: math/is-prime.hpp
@@ -30,5 +30,5 @@ layout: document
 redirect_from:
 - /library/math/is-prime.hpp
 - /library/math/is-prime.hpp.html
-title: math/is-prime.hpp
+title: "\u7D20\u6570\u5224\u5B9A"
 ---

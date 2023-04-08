@@ -1,83 +1,86 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: main.cpp
+    title: main.cpp
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_1_A.test.cpp
     title: verify/AOJ-ALDS1_1_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_1_B.test.cpp
     title: verify/AOJ-ALDS1_1_B.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_1_C.test.cpp
     title: verify/AOJ-ALDS1_1_C.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_2_A.test.cpp
     title: verify/AOJ-ALDS1_2_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_2_B.test.cpp
     title: verify/AOJ-ALDS1_2_B.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ALDS1_6_A.test.cpp
     title: verify/AOJ-ALDS1_6_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DPL_1_D.test.cpp
     title: verify/AOJ-DPL_1_D.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DSL_1_B.test.cpp
     title: verify/AOJ-DSL_1_B.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-DSL_2_A.test.cpp
     title: verify/AOJ-DSL_2_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-GRL_1_A.test.cpp
     title: verify/AOJ-GRL_1_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-GRL_1_C.test.cpp
     title: verify/AOJ-GRL_1_C.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-ITP1_3_D.test.cpp
     title: verify/AOJ-ITP1_3_D.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-NTL_1_A.test.cpp
     title: verify/AOJ-NTL_1_A.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-NTL_1_C.test.cpp
     title: verify/AOJ-NTL_1_C.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-NTL_1_E.test.cpp
     title: verify/AOJ-NTL_1_E.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-CycleDetection(Directed).test.cpp
     title: verify/LC-CycleDetection(Directed).test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-LongestIncreasingSubsequence.test.cpp
     title: verify/LC-LongestIncreasingSubsequence.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-PointAddRangeSum.test.cpp
     title: verify/LC-PointAddRangeSum.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-RangeAffineRangeSum.test.cpp
     title: verify/LC-RangeAffineRangeSum.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-ShortestPath.test.cpp
     title: verify/LC-ShortestPath.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-StaticRMQ(SegmentTree).test.cpp
     title: verify/LC-StaticRMQ(SegmentTree).test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-StaticRangeSum.test.cpp
     title: verify/LC-StaticRangeSum.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-Unionfind.test.cpp
     title: verify/LC-Unionfind.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/LC-zalgorithm.test.cpp
     title: verify/LC-zalgorithm.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"template/template.hpp\"\n#include<bits/stdc++.h>\nusing\
@@ -136,34 +139,35 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: template/template.hpp
-  requiredBy: []
-  timestamp: '2022-11-17 17:32:45+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  requiredBy:
+  - main.cpp
+  timestamp: '2022-11-17 17:44:39+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
-  - verify/AOJ-ALDS1_1_C.test.cpp
+  - verify/LC-CycleDetection(Directed).test.cpp
+  - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-NTL_1_A.test.cpp
-  - verify/AOJ-GRL_1_A.test.cpp
+  - verify/LC-PointAddRangeSum.test.cpp
+  - verify/AOJ-GRL_1_C.test.cpp
+  - verify/AOJ-ALDS1_1_C.test.cpp
+  - verify/AOJ-ALDS1_1_B.test.cpp
+  - verify/LC-LongestIncreasingSubsequence.test.cpp
+  - verify/AOJ-ITP1_3_D.test.cpp
   - verify/AOJ-NTL_1_C.test.cpp
   - verify/AOJ-ALDS1_2_B.test.cpp
-  - verify/AOJ-DSL_1_B.test.cpp
-  - verify/AOJ-GRL_1_C.test.cpp
-  - verify/LC-Unionfind.test.cpp
-  - verify/LC-StaticRangeSum.test.cpp
-  - verify/LC-PointAddRangeSum.test.cpp
-  - verify/LC-StaticRMQ(SegmentTree).test.cpp
-  - verify/LC-LongestIncreasingSubsequence.test.cpp
   - verify/LC-zalgorithm.test.cpp
-  - verify/AOJ-ALDS1_6_A.test.cpp
-  - verify/AOJ-ALDS1_2_A.test.cpp
-  - verify/AOJ-ALDS1_1_A.test.cpp
-  - verify/LC-RangeAffineRangeSum.test.cpp
-  - verify/AOJ-ALDS1_1_B.test.cpp
-  - verify/AOJ-DSL_2_A.test.cpp
-  - verify/AOJ-NTL_1_E.test.cpp
-  - verify/AOJ-ITP1_3_D.test.cpp
-  - verify/LC-ShortestPath.test.cpp
   - verify/AOJ-DPL_1_D.test.cpp
-  - verify/LC-CycleDetection(Directed).test.cpp
+  - verify/LC-ShortestPath.test.cpp
+  - verify/AOJ-DSL_2_A.test.cpp
+  - verify/AOJ-ALDS1_6_A.test.cpp
+  - verify/AOJ-DSL_1_B.test.cpp
+  - verify/LC-StaticRMQ(SegmentTree).test.cpp
+  - verify/LC-RangeAffineRangeSum.test.cpp
+  - verify/AOJ-GRL_1_A.test.cpp
+  - verify/LC-StaticRangeSum.test.cpp
+  - verify/AOJ-ALDS1_1_A.test.cpp
+  - verify/LC-Unionfind.test.cpp
+  - verify/AOJ-NTL_1_E.test.cpp
 documentation_of: template/template.hpp
 layout: document
 redirect_from:

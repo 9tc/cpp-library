@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: verify/AOJ-GRL_1_C.test.cpp
     title: verify/AOJ-GRL_1_C.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"graph/warshall-floyd.hpp\"\ntemplate<typename T>\nvector<vector<T>>\
@@ -26,8 +26,8 @@ data:
   isVerificationFile: false
   path: graph/warshall-floyd.hpp
   requiredBy: []
-  timestamp: '2022-12-30 04:44:07+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '2022-12-30 04:45:51+09:00'
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - verify/AOJ-GRL_1_C.test.cpp
 documentation_of: graph/warshall-floyd.hpp
@@ -35,5 +35,6 @@ layout: document
 redirect_from:
 - /library/graph/warshall-floyd.hpp
 - /library/graph/warshall-floyd.hpp.html
-title: graph/warshall-floyd.hpp
+title: "\u5168\u70B9\u5BFE\u6700\u77ED\u7D4C\u8DEF(\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\
+  \u30ED\u30A4\u30C9\u6CD5)"
 ---
