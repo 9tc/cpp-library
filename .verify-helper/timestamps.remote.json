@@ -22,5 +22,6 @@
 "verify/LC-StaticRMQ(SegmentTree).test.cpp": "2022-12-18 03:43:29 +0900",
 "verify/LC-StaticRangeSum.test.cpp": "2022-11-17 17:32:45 +0900",
 "verify/LC-Unionfind.test.cpp": "2022-11-17 17:32:45 +0900",
+"verify/LC-zalgorithm.test.cpp": "2022-12-30 22:49:10 +0900",
 "verify/example.test.cpp": "2022-11-13 18:43:49 +0900"
 }
