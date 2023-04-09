@@ -14,6 +14,7 @@
 "verify/AOJ-NTL_1_A.test.cpp": "2022-11-22 13:24:56 +0900",
 "verify/AOJ-NTL_1_C.test.cpp": "2022-11-17 17:41:35 +0900",
 "verify/AOJ-NTL_1_E.test.cpp": "2022-12-30 22:28:36 +0900",
+"verify/LC-CycleDetection(Directed).test.cpp": "2023-04-10 00:12:55 +0900",
 "verify/LC-LongestIncreasingSubsequence.test.cpp": "2022-12-30 06:44:14 +0900",
 "verify/LC-PointAddRangeSum.test.cpp": "2022-12-18 04:28:58 +0900",
 "verify/LC-RangeAffineRangeSum.test.cpp": "2022-12-30 01:31:02 +0900",
