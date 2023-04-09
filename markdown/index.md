@@ -69,7 +69,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: math/lcm.hpp
       title: "\u6700\u5C0F\u516C\u500D\u6570"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: math/modint.hpp
       title: math/modint.hpp
     - icon: ':heavy_check_mark:'
@@ -146,6 +146,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_A.test.cpp
       title: verify/AOJ-NTL_1_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-NTL_1_B.test.cpp
+      title: verify/AOJ-NTL_1_B.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_C.test.cpp
       title: verify/AOJ-NTL_1_C.test.cpp
