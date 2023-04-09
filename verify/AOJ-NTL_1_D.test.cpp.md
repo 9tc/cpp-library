@@ -1,23 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: math/eulers-phi-function.hpp
     title: math/eulers-phi-function.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_C
+    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_D
     links:
-    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_C
-  bundledCode: "#line 1 \"verify/AOJ-NTL_1_D.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_C\"\
+    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_D
+  bundledCode: "#line 1 \"verify/AOJ-NTL_1_D.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_D\"\
     \n\n#line 1 \"template/template.hpp\"\n#include<bits/stdc++.h>\nusing ll = long\
     \ long;\n#define REP(i, n) for(ll i = 0; (i) < ll(n); ++ (i))\n#define FOR(i,\
     \ m, n) for(ll i = (m); (i) <= ll(n); ++ (i))\n#define REPR(i, n) for(ll i = ll(n)\
@@ -51,7 +51,7 @@ data:
     \ res -= res / n;\n    return res;\n}\n#line 5 \"verify/AOJ-NTL_1_D.test.cpp\"\
     \n\nint main(){\n  int n;\n  cin >> n;\n  cout << eulersPhiFunction<int>(n) <<\
     \ endl;\n}\n"
-  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_C\"\
+  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_D\"\
     \n\n#include \"../template/template.hpp\"\n#include \"../math/eulers-phi-function.hpp\"\
     \n\nint main(){\n  int n;\n  cin >> n;\n  cout << eulersPhiFunction<int>(n) <<\
     \ endl;\n}\n"
@@ -61,8 +61,8 @@ data:
   isVerificationFile: true
   path: verify/AOJ-NTL_1_D.test.cpp
   requiredBy: []
-  timestamp: '2023-04-10 01:04:21+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2023-04-10 01:06:58+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/AOJ-NTL_1_D.test.cpp
 layout: document
