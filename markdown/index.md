@@ -56,6 +56,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: math/divisor.hpp
       title: "\u7D04\u6570\u5217\u6319"
+    - icon: ':x:'
+      path: math/eulers-phi-function.hpp
+      title: math/eulers-phi-function.hpp
     - icon: ':heavy_check_mark:'
       path: math/extend-gcd.hpp
       title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
@@ -101,7 +104,7 @@ data:
       title: Z Algorithm
   - name: template
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':question:'
       path: template/template.hpp
       title: template/template.hpp
   verificationCategories:
@@ -152,6 +155,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_C.test.cpp
       title: verify/AOJ-NTL_1_C.test.cpp
+    - icon: ':x:'
+      path: verify/AOJ-NTL_1_D.test.cpp
+      title: verify/AOJ-NTL_1_D.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_E.test.cpp
       title: verify/AOJ-NTL_1_E.test.cpp
