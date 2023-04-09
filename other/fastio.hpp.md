@@ -2,13 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':x:'
-    path: verify/LC-CycleDetection(Directed).test.cpp
-    title: verify/LC-CycleDetection(Directed).test.cpp
-  _isVerificationFailed: true
+  _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "#line 1 \"other/fastio.hpp\"\nclass FastIO {\n  static const int rdata_sz\
@@ -45,9 +42,8 @@ data:
   path: other/fastio.hpp
   requiredBy: []
   timestamp: '2023-04-09 06:25:54+09:00'
-  verificationStatus: LIBRARY_ALL_WA
-  verifiedWith:
-  - verify/LC-CycleDetection(Directed).test.cpp
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
 documentation_of: other/fastio.hpp
 layout: document
 redirect_from:

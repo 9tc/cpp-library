@@ -36,7 +36,7 @@ data:
       title: "\u6700\u9577\u5897\u52A0\u90E8\u5206\u5217"
   - name: graph
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: graph/cycle-detection.hpp
       title: "\u9589\u8DEF\u5224\u5B9A"
     - icon: ':heavy_check_mark:'
@@ -69,12 +69,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: math/lcm.hpp
       title: "\u6700\u5C0F\u516C\u500D\u6570"
+    - icon: ':warning:'
+      path: math/modint.hpp
+      title: math/modint.hpp
     - icon: ':heavy_check_mark:'
       path: math/prime-factorize.hpp
       title: "\u7D20\u56E0\u6570\u5206\u89E3"
   - name: other
     pages:
-    - icon: ':x:'
+    - icon: ':warning:'
       path: other/fastio.hpp
       title: other/fastio.hpp
   - name: sort
@@ -98,7 +101,7 @@ data:
       title: Z Algorithm
   - name: template
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: template/template.hpp
       title: template/template.hpp
   verificationCategories:
@@ -149,7 +152,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-NTL_1_E.test.cpp
       title: verify/AOJ-NTL_1_E.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: verify/LC-CycleDetection(Directed).test.cpp
       title: verify/LC-CycleDetection(Directed).test.cpp
     - icon: ':heavy_check_mark:'
