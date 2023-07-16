@@ -6,6 +6,8 @@ struct ModInt {
 
   ModInt(int64_t value) : val(value >= 0 ? value % mod : (mod - (-value) % mod) % mod) {}
 
+  Modint(int64_t value, int m) : val(value >= 0 ? value % m : (m - (-value) % m) % m), mod(m) {}
+
   ModInt &operator+=(const ModInt &p) {
     if ((val += p.val) >= mod) val -= mod;
     return *this;
@@ -74,6 +76,18 @@ struct ModInt {
 
   static int get_mod() { return mod; }
 };
+
+template<typename T>
+T factorial(const int n){
+  static std::vector<T> v = {1};
+  while(v.size() <= n) v.push_back(v.back() * v.size());
+  return v[n];
+}
+
+template<typename T>
+T binom(const int n, const int k){
+  return factorial<T>(n) / factorial<T>(k) / factorial<T>(n - k);
+}
 
 using modint998244353 = ModInt<998244353>;
 using modint1000000007 = ModInt<1000000007>;
