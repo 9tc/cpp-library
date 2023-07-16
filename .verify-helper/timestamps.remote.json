@@ -23,5 +23,6 @@
 "verify/LC-ShortestPath.test.cpp": "2023-07-16 15:58:42 +0900",
 "verify/LC-StaticRMQ(SegmentTree).test.cpp": "2023-07-16 15:58:42 +0900",
 "verify/LC-StaticRangeSum.test.cpp": "2023-07-16 15:58:42 +0900",
+"verify/LC-Unionfind.test.cpp": "2023-07-16 15:58:42 +0900",
 "verify/example.test.cpp": "2022-11-13 18:43:49 +0900"
 }
