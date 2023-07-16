@@ -2,16 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
-    path: verify/AOJ-NTL_1_B.test.cpp
-    title: verify/AOJ-NTL_1_B.test.cpp
+  _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"math/modint.hpp\"\ntemplate <int mod>\nstruct ModInt {\n\
+  bundledCode: "#line 1 \"utils/modint.hpp\"\ntemplate <int mod>\nstruct ModInt {\n\
     \  int val;\n\n  ModInt() : val(0) {}\n\n  ModInt(int64_t value) : val(value >=\
     \ 0 ? value % mod : (mod - (-value) % mod) % mod) {}\n\n  ModInt &operator+=(const\
     \ ModInt &p) {\n    if ((val += p.val) >= mod) val -= mod;\n    return *this;\n\
@@ -61,16 +58,15 @@ data:
     \ ModInt<998244353>;\nusing modint1000000007 = ModInt<1000000007>;"
   dependsOn: []
   isVerificationFile: false
-  path: math/modint.hpp
+  path: utils/modint.hpp
   requiredBy: []
-  timestamp: '2023-04-10 00:38:02+09:00'
-  verificationStatus: LIBRARY_ALL_AC
-  verifiedWith:
-  - verify/AOJ-NTL_1_B.test.cpp
-documentation_of: math/modint.hpp
+  timestamp: '2023-07-16 15:53:20+09:00'
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
+documentation_of: utils/modint.hpp
 layout: document
 redirect_from:
-- /library/math/modint.hpp
-- /library/math/modint.hpp.html
-title: math/modint.hpp
+- /library/utils/modint.hpp
+- /library/utils/modint.hpp.html
+title: utils/modint.hpp
 ---
