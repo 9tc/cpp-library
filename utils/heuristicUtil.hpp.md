@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':question:'
     path: template.hpp
     title: template.hpp
   _extendedRequiredBy: []
@@ -43,18 +43,18 @@ data:
     \ getTime(){\n    return (double)(clock() - _startTime) / CLOCKS_PER_SEC;\n}\n\
     \nvoid setLimit(const double limit){\n    limitTime = limit;\n}\n\nbool checkTime(){\n\
     \    assert(limitTime != -1);\n    return getTime() <= limitTime;\n}\n"
-  code: "#include \"template.hpp\"\nstd::random_device seed_gen;\nstd::mt19937 engine(seed_gen());\n\
-    clock_t _startTime;\ndouble limitTime = -1;\n\nvoid initTime(){\n    _startTime\
-    \ = clock();\n}\n\ndouble getTime(){\n    return (double)(clock() - _startTime)\
-    \ / CLOCKS_PER_SEC;\n}\n\nvoid setLimit(const double limit){\n    limitTime =\
-    \ limit;\n}\n\nbool checkTime(){\n    assert(limitTime != -1);\n    return getTime()\
-    \ <= limitTime;\n}"
+  code: "#include \"../template.hpp\"\nstd::random_device seed_gen;\nstd::mt19937\
+    \ engine(seed_gen());\nclock_t _startTime;\ndouble limitTime = -1;\n\nvoid initTime(){\n\
+    \    _startTime = clock();\n}\n\ndouble getTime(){\n    return (double)(clock()\
+    \ - _startTime) / CLOCKS_PER_SEC;\n}\n\nvoid setLimit(const double limit){\n \
+    \   limitTime = limit;\n}\n\nbool checkTime(){\n    assert(limitTime != -1);\n\
+    \    return getTime() <= limitTime;\n}"
   dependsOn:
   - template.hpp
   isVerificationFile: false
   path: utils/heuristicUtil.hpp
   requiredBy: []
-  timestamp: '2023-07-16 15:53:20+09:00'
+  timestamp: '2023-07-16 15:58:42+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: utils/heuristicUtil.hpp

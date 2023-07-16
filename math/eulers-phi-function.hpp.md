@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: verify/AOJ-NTL_1_D.test.cpp
+    title: verify/AOJ-NTL_1_D.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"math/eulers-phi-function.hpp\"\ntemplate <typename T>\n\
@@ -22,8 +25,9 @@ data:
   path: math/eulers-phi-function.hpp
   requiredBy: []
   timestamp: '2023-04-10 01:04:21+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - verify/AOJ-NTL_1_D.test.cpp
 documentation_of: math/eulers-phi-function.hpp
 layout: document
 redirect_from:

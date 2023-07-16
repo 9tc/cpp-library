@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: verify/AOJ-ALDS1_1_A.test.cpp
+    title: verify/AOJ-ALDS1_1_A.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 2 \"sort/insertion-sort.hpp\"\ntemplate <class T>\nvoid insertionSort(vector<T>\
@@ -25,8 +28,9 @@ data:
   path: sort/insertion-sort.hpp
   requiredBy: []
   timestamp: '2022-11-17 17:07:52+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - verify/AOJ-ALDS1_1_A.test.cpp
 documentation_of: sort/insertion-sort.hpp
 layout: document
 redirect_from:

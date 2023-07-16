@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: verify/AOJ-NTL_1_B.test.cpp
+    title: verify/AOJ-NTL_1_B.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"utils/modint.hpp\"\ntemplate <int mod>\nstruct ModInt {\n\
@@ -61,8 +64,9 @@ data:
   path: utils/modint.hpp
   requiredBy: []
   timestamp: '2023-07-16 15:53:20+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - verify/AOJ-NTL_1_B.test.cpp
 documentation_of: utils/modint.hpp
 layout: document
 redirect_from:
