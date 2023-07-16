@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_A"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../data-structure/segment-tree/range-minimum-query.hpp"
 
 int main(){

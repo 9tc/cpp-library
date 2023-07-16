@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_A"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../sort/bubble-sort.hpp"
 
 int main(){

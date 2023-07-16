@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../graph/dijkstra-with-cost.hpp"
 
 int main(){

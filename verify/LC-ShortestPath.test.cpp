@@ -1,5 +1,5 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/shortest_path"
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../graph/dijkstra-with-walk.hpp"
 
 int main(){

@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/staticrmq"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../data-structure/segment-tree/range-minimum-query.hpp"
 
 int main(){

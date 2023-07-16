@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/range_affine_range_sum"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../data-structure/segment-tree/range-affine-range-sum-query.hpp"
 
 int main(){

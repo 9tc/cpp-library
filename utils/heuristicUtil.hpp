@@ -1,4 +1,4 @@
-#include "template.hpp"
+#include "../template.hpp"
 std::random_device seed_gen;
 std::mt19937 engine(seed_gen());
 clock_t _startTime;

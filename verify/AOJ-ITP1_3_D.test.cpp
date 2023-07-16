@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_3_D"
 
-#include "../template/template.hpp"
+#include "../template.hpp"
 #include "../math/divisor.hpp"
 
 int main(){
