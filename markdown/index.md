@@ -20,6 +20,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: data-structure/segment-tree/range-affine-range-sum-query.hpp
       title: data-structure/segment-tree/range-affine-range-sum-query.hpp
+    - icon: ':warning:'
+      path: data-structure/segment-tree/range-maximum-query.hpp
+      title: data-structure/segment-tree/range-maximum-query.hpp
     - icon: ':heavy_check_mark:'
       path: data-structure/segment-tree/range-minimum-query.hpp
       title: data-structure/segment-tree/range-minimum-query.hpp
