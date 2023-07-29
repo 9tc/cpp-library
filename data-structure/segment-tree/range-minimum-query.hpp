@@ -8,7 +8,7 @@ struct RangeMinimumQuery{
 
   }
 
-  void update(int k, int val){
+  void update(int k, ll val){
     seg.update(k, val);
   }
 
