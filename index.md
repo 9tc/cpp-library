@@ -53,6 +53,9 @@ data:
       path: graph/dijkstra-with-walk.hpp
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5(\u4E00\u3064\u524D\u306B\u901A\
         \u3063\u305F\u9802\u70B9\u306E\u60C5\u5831\u4ED8\u304D)"
+    - icon: ':warning:'
+      path: graph/topological-sort.hpp
+      title: graph/topological-sort.hpp
     - icon: ':heavy_check_mark:'
       path: graph/warshall-floyd.hpp
       title: "\u5168\u70B9\u5BFE\u6700\u77ED\u7D4C\u8DEF(\u30EF\u30FC\u30B7\u30E3\u30EB\
