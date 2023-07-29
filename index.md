@@ -4,6 +4,9 @@ data:
   - name: data-structure
     pages:
     - icon: ':heavy_check_mark:'
+      path: data-structure/cumulative-sum-2d.hpp
+      title: data-structure/cumulative-sum-2d.hpp
+    - icon: ':heavy_check_mark:'
       path: data-structure/cumulative-sum.hpp
       title: data-structure/cumulative-sum.hpp
     - icon: ':heavy_check_mark:'
@@ -145,6 +148,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-DSL_2_A.test.cpp
       title: verify/AOJ-DSL_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: verify/AOJ-DSL_5_B.test.cpp
+      title: verify/AOJ-DSL_5_B.test.cpp
     - icon: ':heavy_check_mark:'
       path: verify/AOJ-GRL_1_A.test.cpp
       title: verify/AOJ-GRL_1_A.test.cpp

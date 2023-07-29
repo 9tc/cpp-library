@@ -34,6 +34,9 @@ data:
     path: verify/AOJ-DSL_2_A.test.cpp
     title: verify/AOJ-DSL_2_A.test.cpp
   - icon: ':heavy_check_mark:'
+    path: verify/AOJ-DSL_5_B.test.cpp
+    title: verify/AOJ-DSL_5_B.test.cpp
+  - icon: ':heavy_check_mark:'
     path: verify/AOJ-GRL_1_A.test.cpp
     title: verify/AOJ-GRL_1_A.test.cpp
   - icon: ':heavy_check_mark:'
@@ -168,6 +171,7 @@ data:
   - verify/AOJ-ALDS1_2_A.test.cpp
   - verify/AOJ-DSL_1_B.test.cpp
   - verify/LC-zalgorithm.test.cpp
+  - verify/AOJ-DSL_5_B.test.cpp
   - verify/AOJ-NTL_1_C.test.cpp
   - verify/AOJ-ITP1_3_D.test.cpp
   - verify/AOJ-NTL_1_E.test.cpp
