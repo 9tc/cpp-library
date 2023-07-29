@@ -96,12 +96,12 @@ data:
       title: "\u9078\u629E\u30BD\u30FC\u30C8"
   - name: string
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: string/z-algorithm.hpp
       title: Z Algorithm
   - name: .
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: template.hpp
       title: template.hpp
   - name: utils
@@ -190,7 +190,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/LC-Unionfind.test.cpp
       title: verify/LC-Unionfind.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: verify/LC-zalgorithm.test.cpp
       title: verify/LC-zalgorithm.test.cpp
     - icon: ':heavy_check_mark:'
