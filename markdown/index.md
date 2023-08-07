@@ -10,6 +10,9 @@ data:
       path: data-structure/cumulative-sum.hpp
       title: data-structure/cumulative-sum.hpp
     - icon: ':warning:'
+      path: data-structure/erasable-priority-queue.hpp
+      title: data-structure/erasable-priority-queue.hpp
+    - icon: ':warning:'
       path: data-structure/kth-sum-priority_queue.hpp
       title: data-structure/kth-sum-priority_queue.hpp
     - icon: ':heavy_check_mark:'
