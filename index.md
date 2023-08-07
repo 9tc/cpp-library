@@ -9,6 +9,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: data-structure/cumulative-sum.hpp
       title: data-structure/cumulative-sum.hpp
+    - icon: ':warning:'
+      path: data-structure/kth-sum-priority_queue.hpp
+      title: data-structure/kth-sum-priority_queue.hpp
     - icon: ':heavy_check_mark:'
       path: data-structure/unionfind.hpp
       title: data-structure/unionfind.hpp
