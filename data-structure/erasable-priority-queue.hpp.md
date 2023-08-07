@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: data-structure/erasable-priority-queue-with-contains.hpp
+    title: data-structure/erasable-priority-queue-with-contains.hpp
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -30,7 +33,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: data-structure/erasable-priority-queue.hpp
-  requiredBy: []
+  requiredBy:
+  - data-structure/erasable-priority-queue-with-contains.hpp
   timestamp: '2023-08-08 00:16:33+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
