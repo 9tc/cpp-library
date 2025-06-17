@@ -133,6 +133,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: utils/modint.hpp
       title: utils/modint.hpp
+  - name: verify/local
+    pages:
+    - icon: ':warning:'
+      path: verify/local/bubble-sort-test.cpp
+      title: verify/local/bubble-sort-test.cpp
+    - icon: ':warning:'
+      path: verify/local/z-algorithm-test.cpp
+      title: verify/local/z-algorithm-test.cpp
   verificationCategories:
   - name: verify
     pages:
