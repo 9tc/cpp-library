@@ -8,10 +8,14 @@ int main(){
   cin >> n;
   vector<int> a(n);
   REP(i,n) cin >> a[i];
-  int res = bubbleSort(a);
+
+  // バブルソートを実行（AOJでは詳細表示は不要）
+  int swapCount = bubbleSort(a, false);
+
+  // 結果を出力
   for(int i = 0; i < n; ++i){
     cout << (i ? " ": "") << a[i];
   }
   cout << endl;
-  cout << res << endl;
+  cout << swapCount << endl;
 }

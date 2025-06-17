@@ -8,15 +8,19 @@ struct RangeSumQuery{
 
   }
 
-  void update(int k, int val){
+  void update(int k, ll val){
     seg.update(k, val);
   }
 
-  void add(int k, int val){
+  void add(int k, ll val){
     seg.update(k, seg.query(k, k+1) + val);
   }
 
   ll query(int l, int r){
     return seg.query(l, r);
+  }
+
+  ll get(int k){
+    return seg.query(k, k+1);
   }
 };

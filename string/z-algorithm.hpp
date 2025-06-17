@@ -1,5 +1,8 @@
 vector<int> ZAlgorithm(string &s){
   int n = s.length();
+  // 空文字列の場合は空のベクトルを返す
+  if (n == 0) return vector<int>();
+
   vector<int> res(n);
   res[0] = n;
   int i = 1, j = 0;
